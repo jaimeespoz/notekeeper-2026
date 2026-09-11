@@ -1,0 +1,57 @@
+Extensiones
+---------------
+inline html
+document this
+----------------
+https://www.youtube.com/watch?v=aKP5610AEM4&t=222s
+2.35
+
+github
+---------------------------
+mail    :   jespoz@outlook.es
+
+echo "# notekeeper-2026" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/jaimeespoz/notekeeper-2026.git
+git push -u origin master
+
+
+    npx kill-port 3000
+    npx update-browserslist-db@latest
+
+    npm i -D eslint prettier eslint-config-prettier
+    npm init @eslint/config@latest
+
+    npx husky init
+
+    git init
+    git config --global core.safecrlf false
+
+    npm i -D husky lint-staged
+
+    npx eslint --init
+
+    npm i -D jest
+
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXMM2W285J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FXMM2W285J');
+    </script> -->
+
+
+site verification google:
+google-site-verification=r98Z0esconfM6ZsdBpeiszhJeV2ojsfKZ3n4qkTm4tI
+
+
+
+anuncios automaticos
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6109678286009728"
+     crossorigin="anonymous"></script>
