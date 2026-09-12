@@ -141,7 +141,7 @@ export const client = {
       /**
        * Creates a new note card in the UI based on provided note data
        *
-       * @para, {Object} noteData    -  Data representeing the new note
+       * @param {Object} noteData    -  Data representeing the new note
        */
       create(noteData) {
          /**
@@ -162,6 +162,7 @@ export const client = {
        */
       read(noteList) {
          if (noteList.length) {
+            // *********************************************************
             $notePanel.innerHTML = "";
 
             noteList.forEach((noteData) => {
@@ -170,7 +171,7 @@ export const client = {
             });
          } else {
             console.log(emptyNotesTemplate);
-            // $notePanel.innerHTML = emptyNotesTemplate;
+            $notePanel.innerHTML = emptyNotesTemplate;
          }
       },
 
@@ -187,6 +188,7 @@ export const client = {
          const /**{HTMLElement} */ $newCard = Card(noteData);
          $notePanel.replaceChild($newCard, $oldCard);
       },
+
       /**
        * Deletes a note card from the UI
        *

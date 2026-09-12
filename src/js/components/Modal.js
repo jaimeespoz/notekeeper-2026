@@ -163,7 +163,8 @@ const DeleteConfirmModal = function (title) {
             if (isConfirm) {
                db.delete.notebook(id);
             }
-            // console.log($modal);
+            console.log($modal);
+            // ****************************************
             $modal.close();
          })
       );
